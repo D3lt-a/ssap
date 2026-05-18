@@ -1,0 +1,22 @@
+{
+  "name": "ssap",
+  "version": "1.0.0",
+  "description": "A Simple Session-based Authentication Package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rubayita",
+  "license": "ISC",
+  "type": "module",
+  "exports": {
+    "./backend": "./src/backend.js",
+    "./frontend": "./src/frontend.jsx"
+  },
+  "peerDependencies": {
+    "express-session": "^1.18.0",
+    "react": "^18.0.0 || ^19.0.0",
+    "react-router-dom": "^6.0.0 || ^7.0.0"
+  }
+}

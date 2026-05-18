@@ -267,5 +267,3 @@ export default function Dashboard() {
 * `<AuthProvider authCheckUrl="/api/auth-check">`: Handles checking current cookie status on boot. Caches context values globally.
 * `useAuth()`: Access global hook context properties: `{ user, setUser, loading }`.
 * `<ProtectedRoute redirectTo="/login" />`: Route-level element guarding children paths using `react-router-dom` standard `<Outlet />`.
-#   s s a p  
- 
