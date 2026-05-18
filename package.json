@@ -1,5 +1,5 @@
 {
-  "name": "ssap",
+  "name": "my-ssap",
   "version": "1.0.0",
   "description": "A Simple Session-based Authentication Package",
   "main": "index.js",
